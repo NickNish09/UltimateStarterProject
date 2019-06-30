@@ -28,6 +28,16 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+## DEPENDENCIAS
+# Rubocop para análise de código estático
+gem 'rubocop', require: false
+# SimpleForm para facilitar criação de formulários
+gem 'simple_form'
+# Active Admin, Devise e CanCanCan para lidar com autenticação e permissões
+gem 'activeadmin'
+gem 'devise'
+gem 'cancancan'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
