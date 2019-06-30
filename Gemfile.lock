@@ -37,6 +37,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_admin_flat_skin (0.1.2)
     activeadmin (2.1.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (~> 3.1)
@@ -93,6 +94,8 @@ GEM
     erubi (1.8.0)
     execjs (2.7.0)
     ffi (1.11.1)
+    font-awesome-rails (4.7.0.5)
+      railties (>= 3.2, < 6.1)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -274,11 +277,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_flat_skin
   activeadmin
   bootsnap (>= 1.4.2)
   byebug
   cancancan
   devise
+  font-awesome-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
