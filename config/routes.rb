@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   ActiveAdmin.routes(self)
   root to: 'static_pages#index'
   devise_for :users, controllers: {
